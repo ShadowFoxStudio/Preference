@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="683.6683316683317" y="285.5">CardSuitComparator</node>
+    <node x="922.5416666666666" y="398.0">Bot</node>
+    <node x="369.6683316683317" y="585.0">History</node>
+    <node x="731.118059024309" y="1006.0">Deal</node>
+    <node x="446.86972402597405" y="0.0">Card</node>
+    <node x="485.54166666666663" y="1258.0">Game</node>
+    <node x="569.0416666666666" y="1624.0">Test</node>
+    <node x="137.375" y="1050.5">Analysis</node>
+    <node x="900.6683316683317" y="285.5">CardRankComparator</node>
+    <node x="0.0" y="274.0">Croupier</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Bot" target="CardRankComparator">
+      <point x="-27.875" y="-279.0" />
+      <point x="1006.1666666666666" y="373.0" />
+      <point x="999.1683316683317" y="373.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="Game" target="Bot">
+      <point x="155.0769230769231" y="-158.0" />
+      <point x="808.6185897435897" y="1238.0" />
+      <point x="1087.6180590243089" y="1238.0" />
+      <point x="1087.6180590243089" y="986.0" />
+      <point x="1117.6666666666665" y="986.0" />
+      <point x="83.625" y="279.0" />
+    </edge>
+    <edge source="Game" target="Card">
+      <point x="0.0" y="-158.0" />
+      <point x="653.5416666666666" y="1238.0" />
+      <point x="673.1683316683317" y="1238.0" />
+      <point x="673.1683316683317" y="254.0" />
+      <point x="541.4151785714286" y="254.0" />
+      <point x="14.545454545454504" y="92.0" />
+    </edge>
+    <edge source="Deal" target="Game">
+      <point x="108.0" y="81.0" />
+      <point x="1001.118059024309" y="1208.0" />
+      <point x="731.0801282051282" y="1208.0" />
+      <point x="77.53846153846155" y="-158.0" />
+    </edge>
+    <edge source="Game" target="Analysis">
+      <point x="-77.53846153846155" y="-158.0" />
+      <point x="576.0032051282051" y="1208.0" />
+      <point x="431.375" y="1208.0" />
+      <point x="98.0" y="36.5" />
+    </edge>
+    <edge source="History" target="Card">
+      <point x="73.25" y="-92.0" />
+      <point x="589.4183316683317" y="373.0" />
+      <point x="507.243059024309" y="373.0" />
+      <point x="507.243059024309" y="254.0" />
+      <point x="526.869724025974" y="254.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="Game" target="History">
+      <point x="-25.84615384615381" y="-158.0" />
+      <point x="627.6955128205128" y="1188.0" />
+      <point x="556.0763923576424" y="1188.0" />
+      <point x="556.0763923576424" y="986.0" />
+      <point x="613.8349983349983" y="986.0" />
+      <point x="97.66666666666669" y="92.0" />
+    </edge>
+    <edge source="Game" target="Deal">
+      <point x="25.84615384615381" y="-158.0" />
+      <point x="679.3878205128204" y="1188.0" />
+      <point x="785.118059024309" y="1188.0" />
+      <point x="-108.0" y="81.0" />
+    </edge>
+    <edge source="Croupier" target="Card">
+      <point x="-67.0" y="-37.0" />
+      <point x="33.5" y="204.0" />
+      <point x="454.1424512987013" y="204.0" />
+      <point x="-72.72727272727275" y="92.0" />
+    </edge>
+    <edge source="Test" target="Game">
+      <point x="42.25" y="-25.5" />
+      <point x="695.7916666666666" y="1599.0" />
+      <point x="737.5416666666666" y="1599.0" />
+      <point x="84.0" y="158.0" />
+    </edge>
+    <edge source="Game" target="Croupier">
+      <point x="-129.23076923076917" y="-158.0" />
+      <point x="524.3108974358975" y="1228.0" />
+      <point x="89.58694430569426" y="1228.0" />
+      <point x="89.58694430569426" y="373.0" />
+      <point x="150.75" y="373.0" />
+      <point x="50.25" y="37.0" />
+    </edge>
+    <edge source="Deal" target="Bot">
+      <point x="0.0" y="-81.0" />
+      <point x="893.118059024309" y="986.0" />
+      <point x="950.4166666666666" y="986.0" />
+      <point x="-83.625" y="279.0" />
+    </edge>
+    <edge source="Bot" target="Card">
+      <point x="27.875" y="-279.0" />
+      <point x="1061.9166666666665" y="373.0" />
+      <point x="1108.1683316683316" y="373.0" />
+      <point x="1108.1683316683316" y="224.0" />
+      <point x="585.0515422077922" y="224.0" />
+      <point x="58.18181818181813" y="92.0" />
+    </edge>
+    <edge source="CardRankComparator" target="Card">
+      <point x="1.1368683772161603E-13" y="-25.5" />
+      <point x="999.1683316683318" y="234.0" />
+      <point x="570.5060876623377" y="234.0" />
+      <point x="43.636363636363626" y="92.0" />
+    </edge>
+    <edge source="Analysis" target="History">
+      <point x="98.0" y="-36.5" />
+      <point x="431.375" y="986.0" />
+      <point x="418.50166500166495" y="986.0" />
+      <point x="-97.66666666666669" y="92.0" />
+    </edge>
+    <edge source="Bot" target="CardSuitComparator">
+      <point x="-83.625" y="-279.0" />
+      <point x="950.4166666666666" y="373.0" />
+      <point x="782.1683316683317" y="373.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="CardSuitComparator" target="Card">
+      <point x="0.0" y="-25.5" />
+      <point x="782.1683316683317" y="244.0" />
+      <point x="555.9606331168832" y="244.0" />
+      <point x="29.090909090909122" y="92.0" />
+    </edge>
+    <edge source="Analysis" target="Card">
+      <point x="-98.0" y="-36.5" />
+      <point x="235.375" y="234.0" />
+      <point x="497.77881493506493" y="234.0" />
+      <point x="-29.090909090909122" y="92.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="497.0" y="1534.0" />
+  <SelectedNodes>
+    <node>Game</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
